@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets: API keys never go into the repository
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated summaries and books (often copyrighted)
+results/
+*.pdf
+*.epub
+*.mobi
+*.fb2
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local AI-assistant settings
+.claude/

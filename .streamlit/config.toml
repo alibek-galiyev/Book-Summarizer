@@ -1,0 +1,24 @@
+[theme]
+primaryColor = "#B4532A"
+headingFont = "serif"
+baseRadius = "medium"
+
+[theme.light]
+backgroundColor = "#FBF8F3"
+secondaryBackgroundColor = "#F1EADE"
+textColor = "#2B2622"
+
+[theme.dark]
+primaryColor = "#E08A5B"
+backgroundColor = "#1B1917"
+secondaryBackgroundColor = "#28241F"
+textColor = "#EDE6DC"
+
+[server]
+# Only this computer can open the app. Without this, Streamlit also answers
+# other devices on the same network, which could then spend the API keys in
+# .env. Remove the line if you deliberately host the app for others.
+address = "localhost"
+
+[browser]
+gatherUsageStats = false
